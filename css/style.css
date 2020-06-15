@@ -1,0 +1,45 @@
+nav {
+  background-color: #6E6E6E;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #6E6E6E;
+}
+h3, h2 {
+  font-family: 'Pacifico', cursive;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
+.img-fluid {
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 3px solid #706c68;
+  margin: 10px
+}

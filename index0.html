@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <title>Restaurant</title>
+</head>
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container">
+        <div class="float-left mr-5">
+          <img class="d-block mx-auto " src="img/Logo.png" width="100" draggable="false" alt="Logo">
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home"></i>
+              Home
+              </a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fab fa-elementor"></i>
+                Menu
+              </a>
+              <div class="dropdown-menu" id="custom-dropdown-menu">
+                <a class="dropdown-item" href="index0.html">All menu</a>
+                <a class="dropdown-item" href="index1.html">Grilled food</a>
+                <a class="dropdown-item" href="index2.html">Healthy food</a>
+                <a class="dropdown-item" href="index3.html">Italian food</a>
+                <a class="dropdown-item" href="index4.html">Cockteils</a>
+              </div>
+            </li>
+            <!-- dropdown menu -->
+            <li class="nav-item ">
+              <a class="nav-link" href="index5.html">
+                <i class="fas fa-star"></i>
+              Dish of the day
+              </a>
+            </li>
+          </ul>
+          </ul>
+                <style>
+      .form-search {
+        display: inline-block;
+        border-bottom: 1px solid;
+      }
+      .form-search input {
+        all: unset;
+      }
+      </style>
+
+
+      <li class=" ">
+        Phone: +380 63 451 8086
+
+      </li>
+      <form action="/search/" target="_blank" class="form-search">
+        <input type="hidden" name="searchid" value="808327">
+        <input type="search" name="text" required placeholder="Search">
+
+      </form>
+        </div>
+
+
+
+        </div>
+
+    </nav>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- Сarousel Indicators -->
+    <!-- Сarousel Indicators -->
+     <ol class="carousel-indicators">
+       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+     </ol>
+
+
+     <!-- Carousel Inner -->
+     <!-- Carousel Inner -->
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One -->
+        <div class="carousel-item active">
+          <img class="d-block w-100 mh-100" height="800" src="img\3426809.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Grilled food</h3>
+
+          </div>
+        </div>
+        <!-- Slide Two -->
+        <div class="carousel-item">
+          <img class="d-block w-100 mh-100" height="800" src="img\3671305.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Healthy food</h3>
+
+          </div>
+        </div>
+        <!-- Slide Three -->
+        <div class="carousel-item">
+          <img class="d-block w-100 mh-100" height="800"src="img\3900647.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Italian food</h3>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 mh-100" height="800" src="img\317958-PA5NI7-820.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Cocktails</h3>
+
+          </div>
+        </div>
+      </div>
+
+
+
+     <!-- Carousel Control -->
+     <!-- Carousel Control -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+
+
+   </div>
+
+
+
+  <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+    <img class="card-img-left flex-auto d-none d-md-block" height="250" src="img/2541396.jpg" alt="Card imagecap">
+    <div class="card-body d-flex flex-column align-items-start">
+      <h3 class="card-title mb-0">
+        <a href="https://www.delish.com/entertaining/g1634/unusual-grilling-recipes/">Grilled food</a>
+      </h3>
+      <p class="card-text mb-auto">
+        Summer usually means wanting to spend as much time outside as possible in the nice weather and wanting to spend as little time in the kitchen heating up the house and causing the a/c to go into overdrive. Both of these desires are why grilling is such a great option. Luckily, we have a practically endless number of grilling recipe ideas. If you're new to grilling or feeling a little rusty, check out some essential grilling tips, and then give it a go! And don't feel like you have to save grilling for weekends or parties: There are plenty of easy, simple recipes here you can make for a quick weeknight dinner.
+
+        Whether you're looking for easy ideas, BBQ inspiration, or just trying to find cookout food everyone will enjoy, we love these grilling recipes that will please even the pickiest of eaters. There are lots of steaks, hot dogs, pork chops, and grilled meats, but don’t worry, veggie lovers: There are plenty of vegetable dishes and summer salads to enjoy, too. One of the best ways to grill is with with a summer drink in hand, and it's always fun to finish the meal off with a easy summer dessert.
+      </p>
+      <a href="index1.html" class="btn btn-outline-dark">Read more</a>
+    </div>
+  </div>
+  <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+    <img class="card-img-left flex-auto d-none d-md-block" height="250" src="img/302.jpg" alt="Card imagecap">
+    <div class="card-body d-flex flex-column align-items-start">
+      <h3 class="card-title mb-0">
+        <a href="https://www.healthline.com/nutrition/50-super-healthy-foods">Healthy food</a>
+      </h3>
+      <p class="card-text mb-auto">
+        The foods you eat have big effects on your health and quality of life.
+
+Although eating healthy can be fairly simple, the rise in popular "diets" and dieting trends has caused confusion.
+
+In fact, these trends often distract from the basic nutrition principles that are most important.
+
+This is a detailed beginner's guide to healthy eating, based on the latest in nutrition science.
+      </p>
+      <a href="index2.html" class="btn btn-outline-dark">Read more</a>
+    </div>
+  </div>
+  <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+    <img class="card-img-left flex-auto d-none d-md-block" height="250" src="img/444621-PEMTPH-272.jpg" alt="Card imagecap">
+    <div class="card-body d-flex flex-column align-items-start">
+      <h3 class="card-title mb-0">
+        <a href="https://en.wikipedia.org/wiki/List_of_Italian_dishes">Italian food</a>
+      </h3>
+      <p class="card-text mb-auto">
+        This is a list of Italian dishes and foods. Italian cuisine has developed through centuries of social and political changes, with roots as far back as the 4th century BC. Italian cuisine has its origins in Etruscan, ancient Greek, and ancient Roman cuisines. Significant changes occurred with the discovery of the New World and the introduction of potatoes, tomatoes, bell peppers and maize, now central to the cuisine but not introduced in quantity until the 18th century.[1][2] The cuisine of Italy is noted for its regional diversity,[3][4][5] abundance of difference in taste, and is known to be one of the most popular in the world,[6] with influences abroad.[7]
+
+  Pizza and spaghetti, both associated with the Neapolitan traditions of cookery, are especially popular abroad, but the varying geographical conditions of the twenty regions of Italy, together with the strength of local traditions, afford a wide range of dishes.
+      </p>
+      <a href="index3.html" class="btn btn-outline-dark">Read more</a>
+    </div>
+  </div>
+  <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+    <img class="card-img-left flex-auto d-none d-md-block" height="250"  src="img/2909.jpg" alt="Card imagecap">
+    <div class="card-body d-flex flex-column align-items-start">
+      <h3 class="card-title mb-0">
+        <a href="https://vinepair.com/articles/50-most-popular-cocktails-world-2017/">Cockteils</a>
+      </h3>
+      <p class="card-text mb-auto">
+        In January, Drinks International, a trade publication for the alcohol industry, released its annual list of the world’s best-selling cocktails. To create the list, DI surveyed the best bars around the globe, asking them to rank the 10 best-selling classic cocktails at their establishments. These responses were then weighted and ranked, yielding the most ordered cocktails. This year, 109 bars from 38 different countries were surveyed.
+
+One of the big takeaways from this year’s list: The spirit of the Roaring ’20s is indeed making a comeback, with four of the six newcomers to the list boasting Prohibition-era pedigrees. Meanwhile, other early- and mid-20th century classics saw significant gains in popularity, proving that, in uncertain times, it helps to have some tried-and-true favorites to fall back on.
+      </p>
+      <a href="index4.html" class="btn btn-outline-dark">Read more</a>
+    </div>
+  </div>
+
+  <footer class="bordertop">
+    <div class="container">
+        <!-- Logo - About - Contact -->
+        <div class="row py-3 text-light">
+
+
+      <div class="container">
+
+        <div class="row py-3 text-light">
+          <div class="col-md-6">
+          <!-- Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14886.330785718868!2d37.589988333835315!3d48.73306812029086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc21fdaa235943ebd!2sRIA-PIZZA!5e0!3m2!1sru!2sua!4v1591872937676!5m2!1sru!2sua"
+            height="300" style="width: 100%; border:0" allowfullscreen></iframe>
+        </div>
+    <div class="col-md-4">
+      <h3>Contact</h3>
+      <p>
+        <br>
+
+        <strong>Email: <a href="#" class="text-white">contact@gmail.com</a></strong>
+        <strong>Phone: <a href="#" class="text-white">+380 63 451 80 86</a></strong>
+
+        <div class="col-md-12 pb-3">
+                <textarea class="form-control input" name="message" rows="3" maxlength="6000" data-form-field="Message" placeholder="Message" style="resize:none"></textarea>
+              </div>
+              <div class="input-group-btn col-md-12">
+                <button type="submit" class="btn btn-outline-dark btn-form display-4">Send Message</button>
+              </div>
+      </p>
+    </div>
+
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+
+</body>
+
+</html>
